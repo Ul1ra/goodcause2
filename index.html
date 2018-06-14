@@ -3,5 +3,10 @@
     <a href="./aboutme.html">About Me</a>
     <h1>Hello World</h1>
     <p>This is a paragraph tag</p>
+    <div>
+        <div id="displayit"></div>
+        <input type="text" placeholder="Your cause" id="whattosave">
+        <button onclick="document.getElementById('displayit').innerText = 'Save the ' + document.getElementById('whattosave').value">Click Me</button>
+    </div>
   </body>
 </html>
